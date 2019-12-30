@@ -1,0 +1,9 @@
+.main-menu > .menu-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: var(--small-gap);
+}

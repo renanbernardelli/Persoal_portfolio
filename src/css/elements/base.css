@@ -1,0 +1,17 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-primary);
+    height: calc(100% - 102px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 95%;
+    height: 100%;
+    order: 1;
+}

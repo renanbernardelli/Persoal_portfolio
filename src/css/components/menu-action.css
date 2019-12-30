@@ -1,0 +1,9 @@
+.menu-action {
+    color: var(--color-menu);
+    text-decoration: none;
+    border: 2px solid var(--color-border);
+    border-radius: 20px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
