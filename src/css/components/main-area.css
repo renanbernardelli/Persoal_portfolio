@@ -1,0 +1,5 @@
+.main-area {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2em;
+    color: var(--color-text);
+}

@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="../src/img/logo-header-smaller.png" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/settings/color.css">
     <link rel="stylesheet" href="css/settings/gap.css">
@@ -17,11 +19,17 @@
 
     <link rel="stylesheet" href="css/components/menu-action.css">
     <link rel="stylesheet" href="css/components/logo-header.css">
+    <link rel="stylesheet" href="css/components/button-contact.css">
+    <link rel="stylesheet" href="css/components/main-introducing.css">
+    <link rel="stylesheet" href="css/components/main-area.css">
+    <link rel="stylesheet" href="css/components/icon-github.css">
+    <link rel="stylesheet" href="css/components/icon-linkedin.css">
 
     <link rel="stylesheet" href="css/containers/main-header.css">
-    <link rel="stylesheet" href="css/containers/side-footer.css">
-    <link rel="stylesheet" href="css/containers/main-content.css">
     <link rel="stylesheet" href="css/containers/main-menu.css">
+    <link rel="stylesheet" href="css/containers/main-content.css">
+    <link rel="stylesheet" href="css/containers/side-footer.css">
+    <link rel="stylesheet" href="css/containers/introducing-section.css">
 
 </head>
 <body>
@@ -39,13 +47,16 @@
     </header>
     <main>
         <section class="main-content">
-            <h1 class="introducing">Hi, I’m <span>Renan</span>, web developer.</h1>
-            <h2 class= "area">Front End Developer</h2>
+            <div class="introducing-section">
+                <h1 class="main-introducing">Hi,<br> I’m <span class="introducing-name">Renan</span>,<br> web developer.</h1>
+                <h2 class= "main-area">Front End Developer</h2>
+            </div>
+            <a href="contact.html" class="button-contact">Let's talk?</a>
         </section>
     </main>
     <footer class="side-footer">
-        <a href="https://github.com/renanbernardelli">GitHub</a>
-        <a href="https://www.linkedin.com/in/renan-bernardelli-developer/">Linkedin</a>
+        <a class="icon-github" data-tooltip="Have a look on my repositories!" href="https://github.com/renanbernardelli">GitHub</a>
+        <a class="icon-linkedin" data-tooltip="Contact me on Linkedin!" href="https://www.linkedin.com/in/renan-bernardelli-developer/">Linkedin</a>
     </footer>
 </body>
 </html>

@@ -2,6 +2,22 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     width: 5%;
+    margin-bottom: var(--small-gap);
+}
+
+.side-footer > .icon-github {
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: var(--small-gap);
+}
+
+.side-footer > .icon-linkedin {
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: var(--small-gap);
 
 }

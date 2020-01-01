@@ -5,4 +5,22 @@
     width: 100%;
     height: 100%;
     background-position: right;
-};
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-content > .introducing-section {
+    margin-left: 10%;
+}
+
+.main-content > .main-introducing,
+.main-content > .main-area {
+}
+
+.main-content > .button-contact {
+    margin-left: 20vw;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
