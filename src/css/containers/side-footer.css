@@ -7,17 +7,10 @@
     margin-bottom: var(--small-gap);
 }
 
-.side-footer > .icon-github {
-    text-indent: -9999px;
-    width: 40px;
-    height: 40px;
-    margin-bottom: var(--small-gap);
-}
-
+.side-footer > .icon-github,
 .side-footer > .icon-linkedin {
     text-indent: -9999px;
     width: 40px;
     height: 40px;
     margin-bottom: var(--small-gap);
-
 }

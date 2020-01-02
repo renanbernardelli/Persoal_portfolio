@@ -1,0 +1,35 @@
+.introducing-section {
+    width: 500px;
+    margin-left: 10%;
+}
+
+.introducing-section::before {
+    content: '<h1>';
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Quantico', sans-serif;
+    color: var(--color-menu);
+    margin-left: -2em;
+    margin-bottom: 1em;
+}
+
+.introducing-section::after {
+    content: '</h1>';
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Quantico', sans-serif;
+    color: var(--color-menu);
+    text-align: end;
+    margin-right: -2em;
+    margin-top: 1em;
+}
+
+.introducing-section > .main-introducing {
+    font-size: 6em;
+    width: 100%;
+}
+
+.introducing-section > .main-area {
+    font-size: 2em;
+    width: 100%;
+}
