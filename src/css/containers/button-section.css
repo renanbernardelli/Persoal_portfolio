@@ -1,14 +1,15 @@
 .button-section {
-    width: 300px;
+    width: 350px;
     margin-left: 20vw;
     text-align: center;
 }
 
 .button-section > .button-contact {
-    width: 300px;
+    width: auto;
     height: 40px;
+    padding: 0 20px;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .button-section::before {
@@ -19,7 +20,7 @@
     font-family: 'Quantico', sans-serif;
     color: var(--color-menu);
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .button-section::after {
@@ -30,5 +31,5 @@
     font-family: 'Quantico', sans-serif;
     color: var(--color-menu);
     text-align: right;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
