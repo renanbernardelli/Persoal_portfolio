@@ -29,7 +29,7 @@
 
 .introducing-root > .introducing{
     position: absolute;
-    font-size: 8em;
+    font-size: 7em;
     transition-property: color, transform, opacity;
     transition-duration: 0.1s, 0.3s, 0.5s;
     transition-timing-function: ease-in-out;

@@ -1,5 +1,6 @@
 .introducing-section {
     width: 650px;
+    height: 80vh;
     margin-left: 10%;
 }
 .introducing-section > .main-introducing {
@@ -9,5 +10,7 @@
 
 .introducing-section > .main-area {
     font-size: 2em;
-    width: 100%;
+    width: 650px;
+    height: 32px;
+    margin-top: 65%;
 }
