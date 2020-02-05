@@ -3,14 +3,41 @@
     height: 80vh;
     margin-left: 10%;
 }
-.introducing-section > .main-introducing {
+
+@media (min-width: 320px) {
+    .introducing-section {
+        width: 300px;
+        height: 230px;
+        margin: auto var(--small-gap);
+    }
+}
+
+@media (min-width: 480px) {
+    .introducing-section {
+        width: 480px;
+        height: 80vh;
+        margin: auto var(--small-gap);
+    }
+}
+
+/*.introducing-section > .main-introducing {
     font-size: 6em;
     width: 100%;
 }
+*/
 
 .introducing-section > .main-area {
     font-size: 2em;
     width: 650px;
     height: 32px;
     margin-top: 65%;
+}
+
+@media (min-width: 320px) {
+    .introducing-section > .main-area {
+        font-size: 1.5em;
+        width: 280px;
+        height: 32px;
+        margin-top: 175px;
+    }
 }

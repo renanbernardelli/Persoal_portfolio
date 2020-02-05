@@ -1,4 +1,5 @@
 .icon-linkedin {
     background-image: url(../../img/linkedin-icon.png);
+    background-repeat: no-repeat;
     background-size: contain;
 }

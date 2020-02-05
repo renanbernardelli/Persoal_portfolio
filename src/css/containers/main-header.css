@@ -14,3 +14,44 @@
     width: 80%;
     justify-content: space-between;
 }
+
+@media not all and (max-width: 600px){
+    .menu-open, 
+    .menu-close {
+        display: none;
+    }
+}
+
+.menu-open, 
+.menu-close  {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 1.6em;
+    text-indent: -9999em;
+}
+
+.menu-open {
+    height: 0;
+    width: 0.75em;
+    padding-top: 0.125em;
+    border-top: 0.375em double var(--color-border);
+    border-bottom: 0.125 solid var(--color-border);
+
+    vertical-align: middle;
+    margin: 0.5em;
+}
+
+.menu-close {
+    position: relative;
+    height: 1em;
+    width: 1em;
+}
+
+.menu-close::before {
+    content: '\00D7';
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: 0;
+}

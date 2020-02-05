@@ -6,12 +6,32 @@
     right: 15vw;
 }
 
+@media (min-width: 320px) {
+    .button-section {
+        width: 250px;
+        text-align: center;
+        position: absolute;
+        top: 40vh;
+        left: 10%;
+    }
+}
+
 .button-section > .button-contact {
     width: auto;
     height: 40px;
     padding: 0 20px;
     text-align: center;
     font-size: 3em;
+}
+
+@media (min-width: 320px) {
+    .button-section > .button-contact {
+        width: auto;
+        height: 30px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
 }
 
 .button-section::before {
@@ -25,6 +45,13 @@
     margin-bottom: 1.5em;
 }
 
+@media (min-width: 320px) {
+    .button-section::before {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+}
+
 .button-section::after {
     content: '</a>';
     display: block;
@@ -34,4 +61,11 @@
     color: var(--color-menu);
     text-align: right;
     margin-top: 1.5em;
+}
+
+@media (min-width: 320px) {
+    .button-section::after {
+        font-size: 1em;
+        margin-top: 1em;
+    }
 }
