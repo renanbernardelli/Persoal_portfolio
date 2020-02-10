@@ -12,11 +12,11 @@ body {
 }
 
 main {
-    width: 100%;
+    width: 95%;
     height: 100%;
     order: 1;
 }
-
+/*
 @media (min-width: 320px) {
 
     html {
@@ -35,3 +35,4 @@ main {
         order: 0;
     }
 }
+*/

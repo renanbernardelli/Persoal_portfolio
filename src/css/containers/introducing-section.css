@@ -1,9 +1,12 @@
 .introducing-section {
-    width: 650px;
-    height: 80vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 35vw;
+    height: 60vh;
     margin-left: 10%;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-section {
         width: 300px;
@@ -19,20 +22,70 @@
         margin: auto var(--small-gap);
     }
 }
+*/
+.introducing-section::before,
+.introducing-section::after {
+    content: '<h1>';
+    position: absolute;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    color: var(--color-menu-light);
+}
+/*
+@media (min-width: 320px) {
+    .introducing-root::before {
+        content: '<h1>';
+        position: absolute;
+        font-size: 1em;
+        top: -20px;
+        left: -10px;
+    }
+}
+*/
+.introducing-section::before {
+    top: 10%;
+    left: -5%;
+}
 
-/*.introducing-section > .main-introducing {
-    font-size: 6em;
-    width: 100%;
+.introducing-section::after {
+    bottom: 20%;
+    right: 0%;
+}
+
+@media (max-width: 1200px) {
+    .introducing-section {
+        width: 30vw;
+    }
+
+    .introducing-section::before {
+        left: -10%;
+    }
+
+    .introducing-section::after {
+        bottom: 30%;
+    }
+}
+
+
+/*
+@media (min-width: 320px) {
+    .introducing-root::after {
+        content: '</h1>';
+        position: absolute;
+        font-size: 1em;
+        top: 190px;
+        left: 240px;
+    }
 }
 */
 
 .introducing-section > .main-area {
     font-size: 2em;
-    width: 650px;
-    height: 32px;
-    margin-top: 65%;
+    position: relative;
+    width: 100%;
+    height: 10%;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-section > .main-area {
         font-size: 1.5em;
@@ -41,3 +94,4 @@
         margin-top: 175px;
     }
 }
+*/

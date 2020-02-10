@@ -1,11 +1,13 @@
 .button-section {
-    width: 350px;
-    text-align: center;
-    position: absolute;
-    top: 25vh;
-    right: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 35vw;
+    height: 10vh;
+    margin-left: 10%;
 }
-
+/*
 @media (min-width: 320px) {
     .button-section {
         width: 250px;
@@ -15,15 +17,14 @@
         left: 10%;
     }
 }
-
+*/
 .button-section > .button-contact {
     width: auto;
-    height: 40px;
-    padding: 0 20px;
+    padding: 0.1em 0.5em;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 }
-
+/*
 @media (min-width: 320px) {
     .button-section > .button-contact {
         width: auto;
@@ -33,39 +34,36 @@
         font-size: 1.5em;
     }
 }
-
-.button-section::before {
+*/
+.button-section::before,
+.button-section::after {
+    position: absolute;
     content: '<a>';
-    display: block;
     font-size: 1.5em;
-    font-weight: normal;
-    font-family: 'Quantico', sans-serif;
-    color: var(--color-menu);
-    text-align: left;
-    margin-bottom: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    color: var(--color-menu-light);
 }
-
+/*
 @media (min-width: 320px) {
     .button-section::before {
         font-size: 1em;
         margin-bottom: 1em;
     }
 }
-
-.button-section::after {
-    content: '</a>';
-    display: block;
-    font-size: 1.5em;
-    font-weight: normal;
-    font-family: 'Quantico', sans-serif;
-    color: var(--color-menu);
-    text-align: right;
-    margin-top: 1.5em;
+*/
+.button-section::before {
+    top: 0;
+    left: 20%;
 }
-
+.button-section::after {
+    bottom: 0;
+    right: 20%;
+}
+/*
 @media (min-width: 320px) {
     .button-section::after {
         font-size: 1em;
         margin-top: 1em;
     }
 }
+*/

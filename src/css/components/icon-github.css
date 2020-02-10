@@ -1,5 +1,11 @@
-.icon-github {
-    background-image: url(../../img/github-icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.icon-github .fab {
+    color: var(--color-main-text);
+    transition: 0.2s ease-out;
+    border-radius: 50%;
+}
+
+.icon-github .fab:hover,
+.icon-github .fab:focus {
+    transform: scale(0.95);
+    color: var(--color-border);
 }

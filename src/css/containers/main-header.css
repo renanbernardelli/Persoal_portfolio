@@ -6,7 +6,6 @@
     height: 80px;
     padding: 10px 20px;
     background-color: var(--color-secondary-light);
-    box-shadow: 0 0 3px 0 rgba(236, 240, 241, 0.4);
 }
 
 .main-header > .main-menu {
@@ -14,7 +13,7 @@
     width: 80%;
     justify-content: space-between;
 }
-
+/*
 @media not all and (max-width: 600px){
     .menu-open, 
     .menu-close {
@@ -55,3 +54,4 @@
     left: 0;
     text-indent: 0;
 }
+*/

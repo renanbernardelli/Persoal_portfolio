@@ -4,9 +4,11 @@
     justify-content: flex-end;
     align-items: center;
     width: 5%;
+    height: 100%;
     margin-bottom: var(--small-gap);
+    background-color: var(--color-secondary-light);
 }
-
+/*
 @media (min-width: 320px) {
     .side-footer {
         width: 100%;
@@ -24,15 +26,14 @@
         margin-bottom: var(--small-gap);
     }
 }
+*/
 
-.side-footer > .icon-github,
-.side-footer > .icon-linkedin {
-    text-indent: -9999px;
-    width: 40px;
-    height: 40px;
+.side-footer > .icon-github .fab,
+.side-footer > .icon-linkedin .fab {
+    font-size: 2.5em;
     margin-bottom: var(--small-gap);
 }
-
+/*
 @media (min-width: 320px) {
     .side-footer > .icon-github,
     .side-footer > .icon-linkedin {
@@ -52,3 +53,4 @@
     margin-bottom: var(--smaller-gap);
 }
 }
+*/

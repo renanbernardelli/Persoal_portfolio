@@ -1,5 +1,10 @@
-.icon-linkedin {
-    background-image: url(../../img/linkedin-icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.icon-linkedin .fab {
+    color: var(--color-main-text);
+    transition: 0.2s ease-out;
+}
+
+.icon-linkedin .fab:hover,
+.icon-linkedin .fab:focus {
+    transform: scale(0.95);
+    color: var(--color-border);
 }

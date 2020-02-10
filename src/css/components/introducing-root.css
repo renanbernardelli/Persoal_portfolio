@@ -2,66 +2,29 @@
     font-family: 'Rancho', cursive;
     color: var(--color-main-text);
     display: inline-block;
-    width: 100%;
-    top: 10vh;
     position: relative;
+    width: 100%;
+    height: 75%;
+    top: 15%;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root {
         width: 280px;
         top: var(--small-gap);
     }
 }
-
-.introducing-root::before {
-    content: '<h1>';
-    position: absolute;
-    font-size: 1.5em;
-    font-family: 'Quantico', sans-serif;
-    color: var(--color-menu);
-    top: -30px;
-    left: -30px;
-}
-
-@media (min-width: 320px) {
-    .introducing-root::before {
-        content: '<h1>';
-        position: absolute;
-        font-size: 1em;
-        top: -20px;
-        left: -10px;
-    }
-}
-
-.introducing-root::after {
-    content: '</h1>';
-    position: absolute;
-    font-size: 1.5em;
-    font-family: 'Quantico', sans-serif;
-    color: var(--color-menu);
-    top: 350px;
-    left: 550px;
-}
-
-@media (min-width: 320px) {
-    .introducing-root::after {
-        content: '</h1>';
-        position: absolute;
-        font-size: 1em;
-        top: 190px;
-        left: 240px;
-    }
-}
+*/
 
 .introducing-root > .introducing{
     position: absolute;
-    font-size: 7em;
+    font-size: 6em;
     transition-property: color, transform, opacity;
     transition-duration: 0.1s, 0.3s, 0.5s;
     transition-timing-function: ease-in-out;
 }
 
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing{
         position: absolute;
@@ -71,7 +34,7 @@
         transition-timing-function: ease-in-out;
     }
 }
-
+*/
 .introducing-root > .introducing:hover{
     color: var(--color-border);
     opacity: 0.3;
@@ -79,25 +42,25 @@
 }
 
 .introducing-root > .introducing.letter-2 {
-    left: 70px;
+    left: 0.6em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-2 {
         left: 30px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-3 {
-    left: 100px;
+    left: 0.8em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-3 {
         left: 40px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-4, 
 .introducing.letter-5,
 .introducing.letter-6,
@@ -107,9 +70,9 @@
 .introducing.letter-10,
 .introducing.letter-11,
 .introducing.letter-12 {
-    top: 120px;
+    top: 25%;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-4, 
     .introducing.letter-5,
@@ -123,87 +86,87 @@
         top: 55px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-5 {
-    left: 40px;
+    left: 0.3em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-5 {
         left: 20px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-6 {
-    left: 55px;
+    left: 0.5em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-6 {
         left: 25px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-7 {
-    left: 150px;
+    left: 1.5em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-7 {
         left: 70px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-8 {
-    left: 210px;
+    left: 2em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-8 {
         left: 95px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-9 {
-    left: 250px;
+    left: 2.4em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-9 {
         left: 115px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-10 {
-    left: 295px;
+    left: 2.8em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-10 {
         left: 135px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-11 {
-    left: 340px;
+    left: 3.2em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-11 {
         left: 155px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-12 {
-    left: 400px;
+    left: 3.6em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-12 {
         left: 175px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-13,
 .introducing.letter-14,
 .introducing.letter-15,
@@ -217,9 +180,9 @@
 .introducing.letter-23,
 .introducing.letter-24,
 .introducing.letter-25 {
-    top: 240px;
+    top: 50%;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-13,
     .introducing.letter-14,
@@ -237,123 +200,170 @@
         top: 105px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-14 {
-    left: 65px;
+    left: 0.65em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-14 {
         left: 30px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-15 {
-    left: 105px;
+    left: 1em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-15 {
         left: 50px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-16 {
-    left: 180px;
+    left: 1.7em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-16 {
         left: 85px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-17 {
-    left: 225px;
+    left: 2.1em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-17 {
         left: 105px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-18 {
-    left: 265px;
+    left: 2.45em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-18 {
         left: 125px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-19 {
-    left: 305px;
+    left: 2.8em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-19 {
         left: 145px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-20 {
-    left: 345px;
+    left: 3.15em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-20 {
         left: 165px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-21 {
-    left: 365px;
+    left: 3.35em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-21 {
         left: 175px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-22 {
-    left: 405px;
+    left: 3.7em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-22 {
         left: 195px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-23 {
-    left: 455px;
+    left: 4.1em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-23 {
         left: 215px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-24 {
-    left: 500px;
+    left: 4.45em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-24 {
         left: 235px;
     }
 }
-
+*/
 .introducing-root > .introducing.letter-25 {
-    left: 540px;
+    left: 4.75em;
 }
-
+/*
 @media (min-width: 320px) {
     .introducing-root > .introducing.letter-25 {
         left: 255px;
+    }
+}
+*/
+
+@media (max-width: 1400px) {
+    .introducing-root > .introducing{
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .introducing-root > .introducing{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 1112px) {
+    .introducing-root > .introducing{
+        font-size: 3.5em;
+    }
+
+    .introducing-root > .introducing.letter-4, 
+    .introducing.letter-5,
+    .introducing.letter-6,
+    .introducing.letter-7,
+    .introducing.letter-8,
+    .introducing.letter-9,
+    .introducing.letter-10,
+    .introducing.letter-11,
+    .introducing.letter-12 {
+        top: 20%;
+    }
+
+    .introducing-root > .introducing.letter-13,
+    .introducing.letter-14,
+    .introducing.letter-15,
+    .introducing.letter-16,
+    .introducing.letter-17,
+    .introducing.letter-18,
+    .introducing.letter-19,
+    .introducing.letter-20,
+    .introducing.letter-21,
+    .introducing.letter-22,
+    .introducing.letter-23,
+    .introducing.letter-24,
+    .introducing.letter-25 {
+        top: 40%;
     }
 }
